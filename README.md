@@ -10,7 +10,7 @@ Good luck!
 
 As a data engineer, you	are requested to design	a data lakehouse to ingest, host and deliver meter data as efficiently as possible.  
 
-Leap receives electricity meter data on a daily basis from utilities.  The size of the daily updates are around a few GB.  The data arriving each day contains new meter data from the last 24 hours, as well as corrected data from previous days that should replace older meter data.  Once stored, business users would like access to a snapshot of the meter data, containing not only the latest data, but the most up-to-date data (ie those data from previous days that were corrected).   Their \
+Leap receives electricity meter data on a daily basis from utilities.  The size of the daily updates are around a few GB.  The data arriving each day contains new meter data from the last 24 hours, as well as corrected data from previous days that should replace missing or inaccurate older meter data.  Once stored, business users would like access to a snapshot of the meter data, containing not only the latest data, but the most up-to-date data (ie those data from previous days that were corrected).   Their \
 access could be a dashboard, where they would be able to select certain meters (e.g. via a meter-id), as well as choose the data range over which to plot the meter data.  Every month, we use the latest snapshot to produce settlement reports, which	we send	to our partners	and are a key component of our revenue.
 What stack would you recommend Leap builds on the cloud to satisfy these requirements?
 
