@@ -21,10 +21,10 @@ Leap receives electricity meter data on a daily basis from utilities.
   b) corrected data from previous days, and     
   c) historical and new data for new meters
 - Only the most recent data is interesting -- incorrect past data must be saved but will rarely need to be accessed. 
-- The total size of the data set is ~100gb but will grow by 50% every year. 
+- The total size of the data set is ~100 Gb but will grow by 50% every year. 
 
 Business users need read access to the latest complete snapshot of the meter data. This snapshots contains: 
-- The latest meter data, 
+- The latest meter data 
 - Only the latest correct data (e.g. if we get a an update with correct data that ovewrwrites previous data, we only want to see the latest correct data)
 
 With regards to the type of access, business users need to see visual graphs of meter usage, including the ability to choose the time range over which to plot the the meter data.
